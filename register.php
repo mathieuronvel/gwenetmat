@@ -27,8 +27,7 @@
        $message .= "Diner: {$diner}\n";
        $message .= "Retour de noces: {$return}\n";
        $message .= "Commentaire: {$comment}\n";
-       //mail("mariage@gwenetmat.fr", "Mariage - Enregistrement", $message);
-       //echo $message."<br/>";
+       mail("mariage@gwenetmat.fr", "Mariage - Enregistrement", $message);
        echo "Email sent!";
      } else {
        echo "Oups, une erreur s'est produite. Veuillez-nous contacter directement a mariage@gwenetmat.fr ou par telephone.";
