@@ -32,7 +32,7 @@ function remainingHours() {
   var hours = parseInt(ms / 1000 / 60 / 60, 10);
   return hours - remainingDays() * 24;
 }
-// Compute EM dimensions
+
 var windowWidth = window.innerWidth / parseFloat(
                     getComputedStyle(
                       document.querySelector('body')

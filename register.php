@@ -28,7 +28,7 @@
        $message .= "Retour de noces: {$return}\n";
        $message .= "Commentaire: {$comment}\n";
        mail("mariage@gwenetmat.fr", "Mariage - Enregistrement", $message);
-       echo "Email correctement envoyé. Merci et à très bientôt!";
+       echo '<html><p style="font-size: xxx-large;">Email correctement envoyé. Merci et à très bientôt!</p><p><a href="http://www.gwenetmat.fr" style="font-size: xxx-large;">Retour au site</a></html>';
      } else {
        echo "Oups, une erreur s'est produite. Veuillez-nous contacter directement à mariage@gwenetmat.fr ou par téléphone.";
      }
