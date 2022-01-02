@@ -9,7 +9,13 @@ setInterval(function(){ changeImage(); }, 5000);
 
 function changeImage()
 {
-  document.getElementById("splash-container").style.backgroundImage = "url(../img/us/" + (imageCounter % (totalImages - 1)) + ".jpg)";
+  var imageIndex = imageCounter % (totalImages - 1);
+  console.log("imageIndex="+imageIndex);
+  var currentImageUrl = window.getComputedStyle(document.getElementById("splash-container")).getPropertyValue('background-image');
+  console.log("currentImageUrl="+currentImageUrl);
+  var newImageUrl = currentImageUrl.replace(/(\d+)/, imageIndex);
+  console.log("newImageUrl="+newImageUrl);
+  document.getElementById("splash-container").style.backgroundImage = newImageUrl;
   imageCounter++;
 }
 
@@ -26,3 +32,17 @@ function remainingHours() {
   var hours = parseInt(ms / 1000 / 60 / 60, 10);
   return hours - remainingDays() * 24;
 }
+
+var windowWidth = window.innerWidth / parseFloat(
+                    getComputedStyle(
+                      document.querySelector('body')
+                    )['font-size']
+                  );
+console.log("windowWidth=" + windowWidth);
+
+var windowHeight = window.innerHeight / parseFloat(
+                    getComputedStyle(
+                      document.querySelector('body')
+                    )['font-size']
+                  );
+console.log("windowHeight=" + windowHeight);
