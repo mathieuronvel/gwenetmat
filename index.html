@@ -145,8 +145,8 @@
         <form id="register-form" class="pure-form pure-form-stacked" method="POST" action="/register.php">
           <fieldset>
 
-            <label for="name">Votre nom *</label>
-            <input id="name" name="name" type="text" placeholder="ex: Jean Dupond">
+            <label for="name">Noms et prénoms *</label>
+            <input id="name" name="name" type="text" placeholder="ex: Jean Dupond, Marie Dupond">
 
             <label for="adults">Nombre d'adultes *</label>
             <input id="adults" name="adults" type="text">
@@ -205,9 +205,9 @@
 
           // ### gallery content ###
           items: [
-              { src: 'gwendo_dominique_petite.jpg', srct: 'gwendo_dominique_petite.jpg', title: 'Dominique - Enfant' },
-              { src: 'gwendo_dominique_adulte.jpg', srct: 'gwendo_dominique_adulte.jpg', title: 'Dominique - Ado' },
-              { src: 'gwendo_dominique_ado.jpg', srct: 'gwendo_dominique_ado.jpg', title: 'Dominique - Adulte' },
+              { src: 'gwendo_dominique_petite.jpg', srct: 'thumbnails/gwendo_dominique_petite.jpg', title: 'Dominique - Enfant' },
+              { src: 'gwendo_dominique_adulte.jpg', srct: 'thumbnails/gwendo_dominique_adulte.jpg', title: 'Dominique - Ado' },
+              { src: 'gwendo_dominique_ado.jpg', srct: 'thumbnails/gwendo_dominique_ado.jpg', title: 'Dominique - Adulte' },
             ]
         });
 
@@ -219,9 +219,9 @@
 
           // ### gallery content ###
           items: [
-              { src: 'gwendo_henri_petite.jpeg', srct: 'gwendo_henri_petite.jpeg', title: 'Henri - Enfant' },
-              { src: 'gwendo_henri_ado.jpg', srct: 'gwendo_henri_ado.jpg', title: 'Henri - Ado' },
-              { src: 'gwendo_henri_adulte.jpg', srct: 'gwendo_henri_adulte.jpg', title: 'Henri - Adulte' }
+              { src: 'gwendo_henri_petite.jpeg', srct: 'thumbnails/gwendo_henri_petite.jpeg', title: 'Henri - Enfant' },
+              { src: 'gwendo_henri_ado.jpg', srct: 'thumbnails/gwendo_henri_ado.jpg', title: 'Henri - Ado' },
+              { src: 'gwendo_henri_adulte.jpg', srct: 'thumbnails/gwendo_henri_adulte.jpg', title: 'Henri - Adulte' }
             ]
         });
       jQuery("#nanogallery2-gwen-family").nanogallery2( {
@@ -232,14 +232,14 @@
 
           // ### gallery content ###
           items: [
-              { src: 'gwendo_anais.jpg', srct: 'gwendo_anais.jpg', title: 'Anais' },
-              { src: 'gwendo_baba.jpg', srct: 'gwendo_baba.jpg', title: 'Baptiste' },
-              { src: 'gwendo_maiwenn.jpg', srct: 'gwendo_maiwenn.jpg', title: 'Maiwenn' },
-              { src: 'gwendo_mathieu.jpg', srct: 'gwendo_mathieu.jpg', title: 'Mathieu' },
-              { src: 'gwendo_michele.jpg', srct: 'gwendo_michele.jpg', title: 'Michèle' },
-              { src: 'gwendo_christophe.jpeg', srct: 'gwendo_christophe.jpeg', title: 'Christophe' },
-              { src: 'gwendo_claudia.jpg', srct: 'gwendo_claudia.jpg', title: 'Claudia' },
-              { src: 'gwendo_cyril.jpg', srct: 'gwendo_cyril.jpg', title: 'Cyril' },
+              { src: 'gwendo_anais.jpg', srct: 'thumbnails/gwendo_anais.jpg', title: 'Anais' },
+              { src: 'gwendo_baba.jpg', srct: 'thumbnails/gwendo_baba.jpg', title: 'Baptiste' },
+              { src: 'gwendo_maiwenn.jpg', srct: 'thumbnails/gwendo_maiwenn.jpg', title: 'Maiwenn' },
+              { src: 'gwendo_mathieu.jpg', srct: 'thumbnails/gwendo_mathieu.jpg', title: 'Mathieu' },
+              { src: 'gwendo_michele.jpg', srct: 'thumbnails/gwendo_michele.jpg', title: 'Michèle' },
+              { src: 'gwendo_christophe.jpeg', srct: 'thumbnails/gwendo_christophe.jpeg', title: 'Christophe' },
+              { src: 'gwendo_claudia.jpg', srct: 'thumbnails/gwendo_claudia.jpg', title: 'Claudia' },
+              { src: 'gwendo_cyril.jpg', srct: 'thumbnails/gwendo_cyril.jpg', title: 'Cyril' },
             ]
         });
 
@@ -251,13 +251,13 @@
 
           // ### gallery content ###
           items: [
-              { src: 'gwendo_chappy.jpg', srct: 'gwendo_chappy.jpg', title: 'Yoann' },
-              { src: 'gwendo_garcon.png', srct: 'gwendo_garcon.png', title: 'Gaétan' },
-              { src: 'gwendo_garcon_2.jpg', srct: 'gwendo_garcon_2.jpg', title: 'Gaétan' },
-              { src: 'gwendo_florent.jpg', srct: 'gwendo_florent.jpg', title: 'Florent' },
-              { src: 'gwendo_larissa.jpg', srct: 'gwendo_larissa.jpg', title: 'Larissa' },
-              { src: 'gwendo_nerena_1.jpg', srct: 'gwendo_nerena_1.jpg', title: 'Nerena' },
-              { src: 'gwendo_nerena_2.jpg', srct: 'gwendo_nerena_2.jpg', title: 'Nerena' }
+              { src: 'gwendo_chappy.jpg', srct: 'thumbnails/gwendo_chappy.jpg', title: 'Yoann' },
+              { src: 'gwendo_garcon.png', srct: 'thumbnails/gwendo_garcon.png', title: 'Gaétan' },
+              { src: 'gwendo_garcon_2.jpg', srct: 'thumbnails/gwendo_garcon_2.jpg', title: 'Gaétan' },
+              { src: 'gwendo_florent.jpg', srct: 'thumbnails/gwendo_florent.jpg', title: 'Florent' },
+              { src: 'gwendo_larissa.jpg', srct: 'thumbnails/gwendo_larissa.jpg', title: 'Larissa' },
+              { src: 'gwendo_nerena_1.jpg', srct: 'thumbnails/gwendo_nerena_1.jpg', title: 'Nerena' },
+              { src: 'gwendo_nerena_2.jpg', srct: 'thumbnails/gwendo_nerena_2.jpg', title: 'Nerena' }
             ]
         });
 
@@ -269,7 +269,7 @@
 
           // ### gallery content ###
           items: [
-              { src: 'gwendo_gwendo.jpeg', srct: 'gwendo_gwendo.jpeg', title: 'Gwendoline' },
+              { src: 'gwendo_gwendo.jpeg', srct: 'thumbnails/gwendo_gwendo.jpeg', title: 'Gwendoline' },
             ]
         });
 
@@ -281,21 +281,21 @@
 
           // ### gallery content ###
           items: [
-              { src: 'mathieu_anais_geek.jpg', srct: 'mathieu_anais_geek.jpg', title: 'Anais' },
-              { src: 'mathieu_anais_gluten.jpg', srct: 'mathieu_anais_gluten.jpg', title: 'Anais' },
-              { src: 'mathieu_chappy.jpg', srct: 'mathieu_chappy.jpg', title: 'Yoann et Gaétan' },
-              { src: 'mathieu_christophe.png', srct: 'mathieu_christophe.png', title: 'Christophe' },
-              { src: 'mathieu_claudia.jpg', srct: 'mathieu_claudia.jpg', title: 'Claudia' },
-              { src: 'mathieu_cyril.jpg', srct: 'mathieu_cyril.jpg', title: 'Cyril' },
-              { src: 'mathieu_dominique_1.jpg', srct: 'mathieu_dominique_1.jpg', title: 'Dominique' },
-              { src: 'mathieu_dominique_2.jpg', srct: 'mathieu_dominique_2.jpg', title: 'Dominique' },
-              { src: 'mathieu_dominique_3.jpg', srct: 'mathieu_dominique_3.jpg', title: 'Dominique' },
-              { src: 'mathieu_gwendo.jpg', srct: 'mathieu_gwendo.jpg', title: 'Gwendoline' },
-              { src: 'mathieu_henri.jpg', srct: 'mathieu_henri.jpg', title: 'Henri' },
-              { src: 'mathieu_manon.jpg', srct: 'mathieu_manon.jpg', title: 'Manon' },
-              { src: 'mathieu_michele_petit.jpg', srct: 'mathieu_michele_petit.jpg', title: 'Michèle - Enfant' },
-              { src: 'mathieu_michele_adulte.jpg', srct: 'mathieu_michele_adulte.jpg', title: 'Michèle - Adulte' },
-              { src: 'mathieu_mathieu.jpg', srct: 'mathieu_mathieu.jpg', title: 'Mathieu' },
+              { src: 'mathieu_anais_geek.jpg', srct: 'thumbnails/mathieu_anais_geek.jpg', title: 'Anais' },
+              { src: 'mathieu_anais_gluten.jpg', srct: 'thumbnails/mathieu_anais_gluten.jpg', title: 'Anais' },
+              { src: 'mathieu_chappy.jpg', srct: 'thumbnails/mathieu_chappy.jpg', title: 'Yoann et Gaétan' },
+              { src: 'mathieu_christophe.png', srct: 'thumbnails/mathieu_christophe.png', title: 'Christophe' },
+              { src: 'mathieu_claudia.jpg', srct: 'thumbnails/mathieu_claudia.jpg', title: 'Claudia' },
+              { src: 'mathieu_cyril.jpg', srct: 'thumbnails/mathieu_cyril.jpg', title: 'Cyril' },
+              { src: 'mathieu_dominique_1.jpg', srct: 'thumbnails/mathieu_dominique_1.jpg', title: 'Dominique' },
+              { src: 'mathieu_dominique_2.jpg', srct: 'thumbnails/mathieu_dominique_2.jpg', title: 'Dominique' },
+              { src: 'mathieu_dominique_3.jpg', srct: 'thumbnails/mathieu_dominique_3.jpg', title: 'Dominique' },
+              { src: 'mathieu_gwendo.jpg', srct: 'thumbnails/mathieu_gwendo.jpg', title: 'Gwendoline' },
+              { src: 'mathieu_henri.jpg', srct: 'thumbnails/mathieu_henri.jpg', title: 'Henri' },
+              { src: 'mathieu_manon.jpg', srct: 'thumbnails/mathieu_manon.jpg', title: 'Manon' },
+              { src: 'mathieu_michele_petit.jpg', srct: 'thumbnails/mathieu_michele_petit.jpg', title: 'Michèle - Enfant' },
+              { src: 'mathieu_michele_adulte.jpg', srct: 'thumbnails/mathieu_michele_adulte.jpg', title: 'Michèle - Adulte' },
+              { src: 'mathieu_mathieu.jpg', srct: 'thumbnails/mathieu_mathieu.jpg', title: 'Mathieu' },
             ]
         });
 
@@ -307,19 +307,19 @@
 
           // ### gallery content ###
           items: [
-              { src: 'mathieu_anais_geek.jpg', srct: 'mathieu_anais_geek.jpg', title: 'Anais' },
-              { src: 'mathieu_anais_gluten.jpg', srct: 'mathieu_anais_gluten.jpg', title: 'Anais' },
-              { src: 'mathieu_christophe.png', srct: 'mathieu_christophe.png', title: 'Christophe' },
-              { src: 'mathieu_manon.jpg', srct: 'mathieu_manon.jpg', title: 'Manon' },
-              { src: 'mathieu_michele_petit.jpg', srct: 'mathieu_michele_petit.jpg', title: 'Michèle - Enfant' },
-              { src: 'mathieu_michele_adulte.jpg', srct: 'mathieu_michele_adulte.jpg', title: 'Michèle - Adulte' },
-              { src: 'mathieu_claudia.jpg', srct: 'mathieu_claudia.jpg', title: 'Claudia' },
-              { src: 'mathieu_cyril.jpg', srct: 'mathieu_cyril.jpg', title: 'Cyril' },
-              { src: 'mathieu_dominique_1.jpg', srct: 'mathieu_dominique_1.jpg', title: 'Dominique' },
-              { src: 'mathieu_dominique_2.jpg', srct: 'mathieu_dominique_2.jpg', title: 'Dominique' },
-              { src: 'mathieu_dominique_3.jpg', srct: 'mathieu_dominique_3.jpg', title: 'Dominique' },
-              { src: 'mathieu_henri.jpg', srct: 'mathieu_henri.jpg', title: 'Henri' },
-              { src: 'mathieu_gwendo.jpg', srct: 'mathieu_gwendo.jpg', title: 'Gwendoline' },
+              { src: 'mathieu_anais_geek.jpg', srct: 'thumbnails/mathieu_anais_geek.jpg', title: 'Anais' },
+              { src: 'mathieu_anais_gluten.jpg', srct: 'thumbnails/mathieu_anais_gluten.jpg', title: 'Anais' },
+              { src: 'mathieu_christophe.png', srct: 'thumbnails/mathieu_christophe.png', title: 'Christophe' },
+              { src: 'mathieu_manon.jpg', srct: 'thumbnails/mathieu_manon.jpg', title: 'Manon' },
+              { src: 'mathieu_michele_petit.jpg', srct: 'thumbnails/mathieu_michele_petit.jpg', title: 'Michèle - Enfant' },
+              { src: 'mathieu_michele_adulte.jpg', srct: 'thumbnails/mathieu_michele_adulte.jpg', title: 'Michèle - Adulte' },
+              { src: 'mathieu_claudia.jpg', srct: 'thumbnails/mathieu_claudia.jpg', title: 'Claudia' },
+              { src: 'mathieu_cyril.jpg', srct: 'thumbnails/mathieu_cyril.jpg', title: 'Cyril' },
+              { src: 'mathieu_dominique_1.jpg', srct: 'thumbnails/mathieu_dominique_1.jpg', title: 'Dominique' },
+              { src: 'mathieu_dominique_2.jpg', srct: 'thumbnails/mathieu_dominique_2.jpg', title: 'Dominique' },
+              { src: 'mathieu_dominique_3.jpg', srct: 'thumbnails/mathieu_dominique_3.jpg', title: 'Dominique' },
+              { src: 'mathieu_henri.jpg', srct: 'thumbnails/mathieu_henri.jpg', title: 'Henri' },
+              { src: 'mathieu_gwendo.jpg', srct: 'thumbnails/mathieu_gwendo.jpg', title: 'Gwendoline' },
             ]
         });
 
@@ -331,8 +331,9 @@
 
           // ### gallery content ###
           items: [
-              { src: 'mathieu_chappy.jpg', srct: 'mathieu_chappy.jpg', title: 'Yoann et Gaétan' },
-              { src: 'mathieu_larissa.jpg', srct: 'mathieu_larissa.jpg', title: 'Larissa' },
+              { src: 'mathieu_chappy.jpg', srct: 'thumbnails/mathieu_chappy.jpg', title: 'Yoann et Gaétan' },
+              { src: 'mathieu_larissa.jpg', srct: 'thumbnails/mathieu_larissa.jpg', title: 'Larissa' },
+              { src: 'mathieu_florent.jpg', srct: 'thumbnails/mathieu_florent.jpg', title: 'Florent' },
             ]
         });
 
@@ -344,7 +345,7 @@
 
           // ### gallery content ###
           items: [
-              { src: 'mathieu_mathieu.jpg', srct: 'mathieu_mathieu.jpg', title: 'Mathieu' },
+              { src: 'mathieu_mathieu.jpg', srct: 'thumbnails/mathieu_mathieu.jpg', title: 'Mathieu' },
             ]
         });
     });
